@@ -15,3 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/admin', function(){
+   return view('admin');
+});
+
+Route::get('/install', function(){
+   return view('vendor.installer.welcome');
+});
+
