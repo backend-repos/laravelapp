@@ -138,6 +138,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+        Spatie\LinkChecker\LinkCheckerServiceProvider::class,
 
         /*
          * Application Service Providers...
