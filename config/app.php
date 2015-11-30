@@ -139,6 +139,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
         Spatie\LinkChecker\LinkCheckerServiceProvider::class,
+        'Illuminate\Html\HtmlServiceProvider',
 
         /*
          * Application Service Providers...
@@ -196,6 +197,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Form'      => 'Illuminate\Html\FormFacade',
+        'Html'      => 'Illuminate\Html\HtmlFacade',
 
     ],
 
