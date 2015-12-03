@@ -142,7 +142,7 @@ return [
         Illuminate\Html\HtmlServiceProvider::class,
         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
-
+        Jenssegers\Agent\AgentServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -202,6 +202,7 @@ return [
         'Form' => Illuminate\Html\FormFacade::class,
         'Html' => Illuminate\Html\HtmlFacade::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        "Agent" => Jenssegers\Agent\Facades\Agent::class,
 
     ],
 

@@ -15,7 +15,8 @@
     "spatie/laravel-link-checker": "^1.0",
     "illuminate/html": "^5.0",
     "laracasts/utilities": "^2.1",
-    "barryvdh/laravel-dompdf": "0.6.*"
+    "barryvdh/laravel-dompdf": "0.6.*",
+    "jenssegers/agent": "^2.3"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
