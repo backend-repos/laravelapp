@@ -143,6 +143,7 @@ return [
         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
+        ShawnSandy\Pages\PagesServiceProvider::class,
         /*
          * Application Service Providers...
          */
